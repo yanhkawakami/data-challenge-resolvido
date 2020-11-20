@@ -2,7 +2,9 @@
 
 Este teste é composto por três exercícios. Nos exercícios 1 e 2 você
 será avaliado pela qualidade, otimização e eficiência do código e, no
-exercício 3, pelo desenho de arquitetura.
+exercício 3, pelo desenho de arquitetura. Faça um fork desse projeto e
+salve seu desenvolvimento nele, pois é no seu repositório que faremos
+a avaliação.
 
 Uma empresa de tecnologia está iniciando sua jornada em dados. Em um
 primeiro momento decidiram investir na criação de um MVP de uma
