@@ -7,7 +7,7 @@ exercício 3, pelo desenho de arquitetura.
 Uma empresa de tecnologia está iniciando sua jornada em dados. Em um
 primeiro momento decidiram investir na criação de um MVP de uma
 plataforma de dados, utilizando serviços da AWS (Fig. 1), para validar o
-seu potencial. Atenta às boas práticas na construção de plataformas com
+seu potencial. Atenta às boas práticas na construção de plataformas como
 essa, a empresa adotou desde o início o princípio de analytics by
 design: todos os produtores de informações se adaptaram para enviar
 eventos à plataforma com o seu layout já definido e documentado.
