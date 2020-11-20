@@ -22,7 +22,7 @@ eventos à plataforma com o seu layout já definido e documentado.
     fila (valid-events-queue).\
     \
     Construa esse módulo em python a partir dos arquivos
-    disponibilizados para você na pasta "exercício1". Você pode ficar à
+    disponibilizados para você na pasta "exercicio1". Você pode ficar à
     vontade para propor melhorias, mas fique atento aos pontos a seguir:
 
     -   Use o JSON Schema disponibilizado na pasta do exercício
@@ -38,7 +38,7 @@ eventos à plataforma com o seu layout já definido e documentado.
     -   Desenvolva seu código no arquivo "event_validator.py". É a
         função "handler" deste arquivo que será estimulada sempre que um
         novo evento cair na fila e utilize a função
-        "send_event_to_queue" para enviar envetos.
+        "send_event_to_queue" para enviar eventos.
 
     -   Execute \'python main.py\' para simular o fluxo.
 
@@ -49,7 +49,7 @@ eventos à plataforma com o seu layout já definido e documentado.
     módulo de Data Quality.\
     \
     Construa esse módulo em python a partir dos arquivos
-    disponibilizados para você na pasta "exercício2" e garanta que ele
+    disponibilizados para você na pasta "exercicio2" e garanta que ele
     crie queries de create table com todos os campos e tipos declarados
     no schema. Fique atento aos seguintes pontos:
 
@@ -64,7 +64,7 @@ eventos à plataforma com o seu layout já definido e documentado.
 
 3.  O projeto vingou! A área de negócio identificou muitas oportunidades
     nos dados disponibilizados. Você ficou responsável por propor um
-    desenho de arquitetura, não exaustivo, de uma plataforma de dado.
+    desenho de arquitetura, não exaustivo, de uma plataforma de dados.
     Não se prenda na solução feita no MVP, essa plataforma pode ser
     construída usando tanto serviços de provedores cloud como soluções
     open-source. Use o Draw.io, se quiser, e se atente ao seguintes
