@@ -78,10 +78,10 @@ eventos à plataforma com o seu layout já definido e documentado.
 
     -   Catálogo de Dados
 
-4. Assim que o novo data lake foi inaugurado, os usuários que fazem a gestão dos produtos da empresa nos pediram para ter uma visão da média do valor transacionado do cliente por dia e por tipo de transação (pix, p2p, tef, boleto). Crie uma consulta em SQL para extrair essa informação com a seguinte estrutura:
+4. Assim que o novo data lake foi inaugurado, os usuários que fazem a gestão dos produtos da empresa nos pediram para ter uma visão da média do valor transacionado por cliente, por dia e por tipo de transação (pix, p2p e boleto). Crie uma consulta em SQL para extrair essa informação com a seguinte estrutura:
 
-    costumer_id | account_id | name | mean_value | transaction_type
+    costumer_id | account_id | name | date | transaction_type | mean_value 
 
-    As tabelas com essas informações estão documentadas no arquivo challenge_table.xlsx na pasta exercício 4.
+    As tabelas com essas informações estão documentadas no arquivo challenge_table.xlsx na pasta exercicio4.
 
 5. O uso do data lake vem crescendo muito e não tem sido eficiente realizar as consulas direto nessas tabelas. Por isso, vamos criar um DW para facilitar consultas de movimentações financeiras. Proponha um diagrama das tabelas para esse DW que facilite o seu uso.
