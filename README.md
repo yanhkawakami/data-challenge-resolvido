@@ -82,6 +82,6 @@ eventos à plataforma com o seu layout já definido e documentado.
 
     costumer_id | account_id | name | mean_value | transaction_type
 
-    A tabelas com essas informações estão documentadas no arquivo challenge_table.xlsx na pasta exercício 4.
+    As tabelas com essas informações estão documentadas no arquivo challenge_table.xlsx na pasta exercício 4.
 
 5. O uso do data lake vem crescendo muito e não tem sido eficiente realizar as consulas direto nessas tabelas. Por isso, vamos criar um DW para facilitar consultas de movimentações financeiras. Proponha um diagrama das tabelas para esse DW que facilite o seu uso.
