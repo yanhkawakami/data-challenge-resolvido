@@ -1,0 +1,14 @@
+# Considerações em relação às resoluções
+
+## Exercicio 1
+Para este exercício, criei módulos auxiliares visando a responsabilidade única:
+    -> reader.py: armazena as classes que tratam o JSON do evento e também o JSON do schema, extraindo as informações necessárias
+    -> compare_schema_event.py: armazena a classe com funções que comparam tamanho e conteúdo do JSON do evento com o JSON do schema
+
+## Exercicio 2
+Para este exercício, criei módulos auxiliares visando a responsabilidade única:
+    -> reader.py: armazena as classes que tratam o JSON do evento e também o JSON do schema, extraindo as informações necessárias
+    -> compare_schema_event.py: armazena a classe com funções que comparam tamanho e conteúdo do JSON do evento com o JSON do schema
+Além disso, assumi que o campo "title" do schema seria o nome da tabela a ser utilizado no CREATE TABLE e que o database seria baseado no path do bucket, sendo assim, deixei default.
+Neste exercício, utilizei uma query HQL. Não consegui encontrar se queries HQL funcionam no Athena, mas inferi que sim. Sendo assim, utilizei um CREATE TABLE simples com compressão em PARQUET. Pensei em considerar o AVRO, mas a compressão do PARQUET é melhor e não imagino que o cenário seria de alteração nas colunas, então não me preocupei em usar o AVRO (me preocupei com a otimização, mas não foquei muito por entender que o intuito do exercício seria mais testar a lógica do envio ao Bucket)
+
